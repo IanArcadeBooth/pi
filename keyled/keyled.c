@@ -1,3 +1,13 @@
+/*
+* File: keyled.c
+* Author: [Ian Booth W0513690]
+* Date: 2026/01/29
+* Description: This file contains a simple function that
+* takes a user input of a number between 0-7 and displays that
+* in binary on the keyboard lights.
+*/
+
+
 #include <linux/kd.h> //KDSETLED
 #include <sys/ioctl.h>
 #include <unistd.h> //sleep()
